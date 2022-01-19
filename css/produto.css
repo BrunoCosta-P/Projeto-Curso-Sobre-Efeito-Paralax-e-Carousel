@@ -1,0 +1,80 @@
+.produto {
+    width: 100%;
+    height:calc(100vh - 4.25rem);
+    display:flex;
+
+}
+
+.produto__foto {
+   
+    width:40%;
+    height: 100%;
+    background-image: url(../assets/img/produto-capa.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: -14.5% top;
+}
+
+.produto__descricao {
+    width:60%;
+    padding: 1rem 0 0 0;
+    box-sizing: border-box;
+    color:var(--cinza);
+
+}
+
+.produto__marca{
+    text-transform: uppercase;
+    font-size:7rem;
+    font-weight:800;
+    color:var(--rosa-claro);
+    letter-spacing:.5rem;
+    line-height: 7rem;
+    text-align: center;
+}
+
+.produto__divisao {
+    padding-left: 1rem;
+    position: relative;
+}
+
+.produto__preco{
+    font-size: 1.375rem;
+    font-weight: 800;
+    letter-spacing: .125rem;
+    margin-bottom: .5rem;
+}
+
+.produto__nome{
+    font-size: 1.375rem;
+    font-weight: 700;
+    letter-spacing: .125rem;
+    line-height: 1.875rem;
+    width:31.875rem;
+    margin-bottom: .6rem;
+}
+
+.produto__texto {
+    width:31.875rem;
+    letter-spacing: .125rem;
+    line-height: 1rem;
+    margin-bottom: 1rem;
+}
+
+.produto__comprar{
+    position: absolute;
+    bottom: 0;
+    right:2rem;
+    border:none;
+    color: var(--branco);
+    font-weight: 900;
+    letter-spacing:.25rem;
+    font-family: inherit;
+    text-transform:uppercase;
+    border-radius: 35px;
+    background-color: var(--laranja);
+    min-width: 10.75rem;
+    padding: 1.25rem 1rem;
+    box-sizing: border-box ;
+}

@@ -1,0 +1,23 @@
+@import url(_reset.css);
+@import url(_variaveis.css);
+
+html {
+    height: 100vh;
+
+    overflow: hidden;
+}
+
+body {
+    font-family: 'overpass', sans-serif;
+
+    perspective: 1px;
+
+    height:100%;
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.container {
+    padding: 0 2rem;
+}
